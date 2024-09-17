@@ -1,0 +1,101 @@
+OOPs Concepts
+-class
+-object
+-inheritance
+-polymorphism
+-abstraction
+-encapsulation
+
+
+----------------------------------------------------------------------------------------------------------
+what is class?
+- python classes provide all the standard features of object oriented programming : the class inheritance
+    mechanism allows multiple base classes, a derived class can override any methods of its base class or
+    classes, a derived class can override any methods of its base class of classes, and a method can call
+    the method of a base class with the same name.
+----------------------------------------------------------------------------------------------------------
+what is object?
+-Class object support two kinds of operations: attribute references and installation.
+-Attribute references use the standard syntax used  for all attribute references in python: obj.name
+
+what is constructor?
+-constructor means it's a special member function which calls whenever object create of that class.
+-constructor is identify by (__) underscore.
+-__init__ function : this function is called constructor in python and is call whenever the object is
+    create of that class.
+-----------------------------------------------------------------------------------------------------------
+what is inheritance?
+-Taking a properties of another class into a another class 
+-Python support inheritance, it event support multiple inheritance.
+-classes can inherit from other classes.
+-A class can inherit attributes and behavior methods from another class, called the superclass.
+-A class which inherits from a superclass is called a subclass, also called heir class or childclass.
+
+Types of Inheritance in python
+1.Single Inheritance
+2.Multilevel Inheritance
+3.multiple Inheritance
+4.Hierarchical Inheritance
+5.Hybrid Inheritance
+
+what is single Inheritance?
+-in single inheritance there is only one parent class and one child class.
+-in single inheritance only one parent class is inherit into one child class.
+-parentclass > childclass
+
+what is multilevel inheritance?
+-in multilevel inheritance there are levels of class.
+parentclass > subparentclass > childclass
+
+what is multiple inheritance?
+-when a child class inherits from multiple parent classes, it is called multiple inheritance.
+-multiple parentclass > childclass 
+
+what is Hierarchical inheritance?
+-when more than one child class is created from a single parent class is called Hierarchical
+    inheritance
+-parentclass > multiple childclass
+
+what is hybrid inheritance?
+-this form combines more than one form of inheritance. basically, it's a blend of more than one
+    type of inheritance.
+-ex. parentclass > multiple subparentclass > childclass (has multiple subparentclass) 
+
+-----------------------------------------------------------------------------------------------------------
+
+what is polymorphism(bahurupta)?
+-polymorphism means having many form of same name.
+-in programming polymorphism means function having same name but diffrent signature.
+
+Types of polymorphism:
+
+1. compile time polymorphism
+    -method overloading
+2.run time polymorphism
+    -method overriding
+
+what is method overloading?
+-method overloading is the compile time polymorphism.
+-method overloading means having same name methods in same class, but diffrent arguments.
+-in method overloading inheritance is not required.
+-note: method overloading is not supported in python. because python is an interpreted lnguage
+    (consider last method in class )
+
+what is method overriding?
+-method overriding is the run time polymorphism.
+-method overriding means having same name methods, but into diffrent class, arguments are also same
+-in method overriding inheritance is compulsory.
+-use supermethod 
+----------------------------------------------------------------------------------------------------------
+what is abstraction?
+-A class that consists of one or more abstraction method is called the abstraction class.
+-abstraction methods do not contain their implementation.
+-abstraction class  can be inherited by the subclass and abstraction method gets its definition
+    in the subclass.
+---------------------------------------------------------------------------------------------------------
+what is encapsulation?
+-the process of wrapping up variable and methods into  a single entity is known as encapsulation.
+
+how to achieve encapsulation?
+-_(single underscore) == single underscore stands for protected
+-__(double underscore) == double underscore stands for private
